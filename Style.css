@@ -1,0 +1,33 @@
+*{
+    margin:0;
+}
+
+#logo{
+    font-family: 'Barlow', sans-serif;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+}
+
+.navbar{
+    margin-bottom: 0;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+#boutonnav{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#boutoncontact{
+    font-family: 'Fraunces', sans-serif;
+    font-size: 22px;
+    color: hsl(0, 0%, 100%);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 20px;
+}
+
