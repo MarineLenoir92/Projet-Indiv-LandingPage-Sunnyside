@@ -22,6 +22,7 @@
     padding-left: 30px;
     padding-right: 30px;
     margin-right: 20px;
+    margin-top: 8px;
 }
 
 #boutonnav:hover{
@@ -29,5 +30,9 @@
     cursor: pointer;
     background-color:hsl(200,100%,81%);
     border-radius: 30px;
+}
+
+#collapsibleNavbar{
+    justify-content: flex-end;
 }
 
