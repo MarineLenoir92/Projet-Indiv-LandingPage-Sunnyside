@@ -20,7 +20,6 @@
     
 }
 
-
 #boutonnav{
     font-family: 'Barlow', sans-serif;
     font-weight: 500;
@@ -32,7 +31,6 @@
     display: flex;
     justify-content: center;
 }
-
 
 #boutonnav:hover{
     font-family: 'Fraunces', sans-serif;
@@ -46,17 +44,79 @@
 }
 
 .navbar-toggler{
-    --bs-navbar-color: white;
-    --bs-navbar-hover-color: white;
-    --bs-navbar-toggler-border-color: white; 
+    --bs-navbar-color: hsl(0, 0%, 100%);
+    --bs-navbar-hover-color: hsl(0, 0%, 100%);
+    --bs-navbar-toggler-border-color: hsl(0, 0%, 100%); 
+  }
+
+
+  @media (min-width: 473px) and (max-width: 768px){
+      
+    #collapsibleNavbar{
+        margin-top: 25px;
+        margin-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 14px;
+        padding-top: 10px;
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    #boutonnav{
+        font-family: 'Barlow', sans-serif;
+        font-weight: 500;
+        color: hsl(210, 4%, 67%);
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 20px;
+        margin-top: 8px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #boutonnav:hover{
+        font-family: 'Fraunces', sans-serif;
+        cursor: pointer;
+        background-color:hsl(51, 100%, 49%);
+        border-radius: 30px;
+    }
   }
 
 
   @media only screen and (max-device-width: 480px){
-      #background{
+
+    #background{
         display: none;
-      }
-      #backgroundmobile{
+    }
+
+    #backgroundmobile{
         display: block;
+    }
+
+    #collapsibleNavbar{
+        margin-top: 25px;
+        margin-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 14px;
+        padding-top: 10px;
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    #boutonnav{
+        font-family: 'Barlow', sans-serif;
+        font-weight: 500;
+        color: hsl(210, 4%, 67%);
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 20px;
+        margin-top: 8px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #boutonnav:hover{
+        font-family: 'Fraunces', sans-serif;
+        cursor: pointer;
+        background-color:hsl(51, 100%, 49%);
+        border-radius: 30px;
     }
   }
