@@ -2,15 +2,26 @@
     margin:0;
 }
 
-#backgroundmobile{
-    display: none;
+#background{
+    background-image: url(./images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
+
 
 #logo{
     font-family: 'Barlow', sans-serif;
     font-weight: 800;
     color: hsl(0, 0%, 100%);
     letter-spacing: 1px;
+}
+
+#title{
+    font-family: 'Fraunces', sans-serif;
+    font-size: 60px;
+    margin-bottom: 350px;
+    letter-spacing: 8px;
 }
 
 .navbar{
@@ -61,6 +72,15 @@
         background-color: hsl(0, 0%, 100%);
     }
 
+    
+    #title{
+        font-family: 'Fraunces', sans-serif;
+        font-size: 40px;
+        margin-bottom: 350px;
+        letter-spacing: 5px;
+    }
+
+
     #boutonnav{
         font-family: 'Barlow', sans-serif;
         font-weight: 500;
@@ -85,13 +105,19 @@
   @media only screen and (max-device-width: 480px){
 
     #background{
-        display: none;
+        background-image: url(./images/mobile/image-header.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
     }
-
-    #backgroundmobile{
-        display: block;
+    
+    #title{
+        font-family: 'Fraunces', sans-serif;
+        font-size: 20px;
+        margin-bottom: 350px;
+        letter-spacing: 3px;
     }
-
+   
     #collapsibleNavbar{
         margin-top: 25px;
         margin-right: 10px;
