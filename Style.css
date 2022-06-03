@@ -2,6 +2,9 @@
     margin:0;
 }
 
+#backgroundmobile{
+    display: none;
+}
 
 #logo{
     font-family: 'Barlow', sans-serif;
@@ -17,6 +20,7 @@
     
 }
 
+
 #boutonnav{
     font-family: 'Barlow', sans-serif;
     font-weight: 500;
@@ -25,7 +29,10 @@
     padding-right: 30px;
     margin-right: 20px;
     margin-top: 8px;
+    display: flex;
+    justify-content: center;
 }
+
 
 #boutonnav:hover{
     font-family: 'Fraunces', sans-serif;
@@ -45,3 +52,11 @@
   }
 
 
+  @media only screen and (max-device-width: 480px){
+      #background{
+        display: none;
+      }
+      #backgroundmobile{
+        display: block;
+    }
+  }
