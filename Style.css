@@ -12,7 +12,6 @@
 
 #logo{
     font-family: 'Barlow', sans-serif;
-    font-weight: 800;
     color: hsl(0, 0%, 100%);
     letter-spacing: 1px;
 }
@@ -20,25 +19,12 @@
 #title{
     font-family: 'Fraunces', sans-serif;
     font-size: 60px;
-    margin-bottom: 100px;
     letter-spacing: 8px;
-}
-
-.navbar{
-    margin-bottom: 0;
-    margin-top: 8px;
-    margin-left: 20px;
-    
 }
 
 #boutonnav{
     font-family: 'Barlow', sans-serif;
-    font-weight: 500;
     color: hsl(0, 0%, 100%);
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-right: 20px;
-    margin-top: 8px;
     display: flex;
     justify-content: center;
 }
@@ -85,12 +71,7 @@
 
     #boutonnav{
         font-family: 'Barlow', sans-serif;
-        font-weight: 500;
         color: hsl(210, 4%, 67%);
-        padding-left: 30px;
-        padding-right: 30px;
-        margin-right: 20px;
-        margin-top: 8px;
         display: flex;
         justify-content: center;
     }
@@ -130,12 +111,7 @@
 
     #boutonnav{
         font-family: 'Barlow', sans-serif;
-        font-weight: 500;
         color: hsl(210, 4%, 67%);
-        padding-left: 30px;
-        padding-right: 30px;
-        margin-right: 20px;
-        margin-top: 8px;
         display: flex;
         justify-content: center;
     }
