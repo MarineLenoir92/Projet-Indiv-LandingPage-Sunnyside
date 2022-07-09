@@ -65,7 +65,7 @@ body{
 #link{
     font-family: 'Fraunces', sans-serif;
     margin-left: 15%;
-    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #link:hover{
@@ -75,11 +75,25 @@ body{
     text-decoration-color:hsl(51, 100%, 49%);
 }
 
+#linktwo{
+    font-family: 'Fraunces', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#linktwo:hover{
+    font-family: 'Fraunces', sans-serif;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color:hsl(7, 99%, 70%);
+}
+
 #imgmobile{
     display: none;
 }
 
 
+/* MEDIA QUERIES MD */
 
   @media (min-width: 473px) and (max-width: 768px){
       
@@ -132,6 +146,7 @@ body{
         font-family: 'Fraunces', sans-serif;
         margin-left: 15%;
         margin-right: 15%;
+        margin-bottom: 10%;
         text-align: center;
     }
     
@@ -142,15 +157,30 @@ body{
         text-decoration-color:hsl(51, 100%, 49%);
     }
 
-    #imgdesktop{
+    #linktwo{
+        font-family: 'Fraunces', sans-serif;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    
+    #linktwo:hover{
+        font-family: 'Fraunces', sans-serif;
+        cursor: pointer;
+        text-decoration: underline;
+        text-decoration-color:hsl(7, 99%, 70%);
+        text-align: center;
+    }
+
+    
+    #imgmobile{
         display: none;
     }
     
-    #imgmobile{
-        display: block !important;
-    }
-    
   }
+
+/* MEDIA QUERIES SM */
 
 
   @media only screen and (max-device-width: 480px){
@@ -209,6 +239,7 @@ body{
         font-family: 'Fraunces', sans-serif;
         margin-left: 15%;
         margin-right: 15%;
+        margin-bottom: 10%;
         text-align: center;
     }
     
@@ -217,6 +248,22 @@ body{
         cursor: pointer;
         text-decoration: underline;
         text-decoration-color:hsl(51, 100%, 49%);
+    }
+
+    #linktwo{
+        font-family: 'Fraunces', sans-serif;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    
+    #linktwo:hover{
+        font-family: 'Fraunces', sans-serif;
+        cursor: pointer;
+        text-decoration: underline;
+        text-decoration-color:hsl(7, 99%, 70%);
+        text-align: center;
     }
 
     #imgdesktop{
