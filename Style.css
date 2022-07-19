@@ -92,6 +92,37 @@ body{
     display: none;
 }
 
+#imgdesktop{
+    width: 100%;
+}
+
+#imgdesktop2{
+    width: 100%;
+}
+
+#imgmobile2{
+    display: none;
+}
+
+
+#colrelative{
+    position: relative;
+}
+
+#subtitleabsolute{
+    font-family: 'Fraunces', sans-serif;
+    opacity: 0.7;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 18%;
+}
+
+#textabsolute{
+    font-family: 'Barlow', sans-serif;
+    position: absolute;
+    opacity: 0.7;
+}
+
 
 /* MEDIA QUERIES MD */
 
@@ -177,7 +208,22 @@ body{
     #imgmobile{
         display: none;
     }
+
+    #imgmobile2{
+        display: none;
+    }
+
+    #subtitleabsolute{
+        font-family: 'Fraunces', sans-serif;
+        opacity: 0.5;
+        position: absolute;
+        margin-top: 45%;
+        margin-left: 33%;
+    }
     
+    #textabsolute{
+        width: 250px;
+    }
   }
 
 /* MEDIA QUERIES SM */
@@ -270,7 +316,26 @@ body{
         display: none;
     }
 
+    #imgdesktop2{
+        display: none;
+    }
+    
     #imgmobile{
         display: block !important;
     }
+
+    #imgmobile2{
+        display: block !important;
+    }
+
+    #subtitleabsolute{
+        font-family: 'Fraunces', sans-serif;
+        opacity: 0.7;
+        position: absolute;
+        margin-top: 85%;
+        margin-left: 28%;
+    }
+
+    
+   
   }
