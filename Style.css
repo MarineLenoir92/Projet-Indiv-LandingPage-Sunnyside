@@ -109,12 +109,20 @@ body{
     position: relative;
 }
 
-#subtitleabsolute{
+#subtitleabsolute1{
     font-family: 'Fraunces', sans-serif;
     opacity: 0.7;
     position: absolute;
     margin-top: 23%;
-    margin-left: 18%;
+    margin-left: 14%;
+}
+
+#subtitleabsolute2{
+    font-family: 'Fraunces', sans-serif;
+    opacity: 0.7;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 16%;
 }
 
 #textabsolute{
@@ -213,12 +221,20 @@ body{
         display: none;
     }
 
-    #subtitleabsolute{
+    #subtitleabsolute1{
         font-family: 'Fraunces', sans-serif;
         opacity: 0.5;
         position: absolute;
         margin-top: 45%;
-        margin-left: 33%;
+        margin-left: 29%;
+    }
+
+    #subtitleabsolute2{
+        font-family: 'Fraunces', sans-serif;
+        opacity: 0.5;
+        position: absolute;
+        margin-top: 45%;
+        margin-left: 30%;
     }
     
     #textabsolute{
@@ -328,12 +344,21 @@ body{
         display: block !important;
     }
 
-    #subtitleabsolute{
+    #subtitleabsolute1{
         font-family: 'Fraunces', sans-serif;
         opacity: 0.7;
         position: absolute;
-        margin-top: 85%;
-        margin-left: 28%;
+        margin-top: 90%;
+        margin-left: 21%;
+    }
+
+
+    #subtitleabsolute2{
+        font-family: 'Fraunces', sans-serif;
+        opacity: 0.7;
+        position: absolute;
+        margin-top: 90%;
+        margin-left: 26%;
     }
 
     
