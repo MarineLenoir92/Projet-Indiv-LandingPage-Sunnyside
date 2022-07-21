@@ -165,7 +165,7 @@ body{
 
 /* MEDIA QUERIES MD */
 
-  @media (min-width: 473px) and (max-width: 768px){
+  @media only screen and (min-width: 576px) and (max-width: 768px){
       
     #collapsibleNavbar{
         margin-top: 25px;
@@ -293,7 +293,7 @@ body{
 /* MEDIA QUERIES SM */
 
 
-  @media only screen and (max-device-width: 480px){
+  @media only screen and (max-width: 576px){
 
     #background{
         background-image: url(./images/mobile/image-header.jpg);
@@ -386,6 +386,7 @@ body{
     
     #imgmobile{
         display: block !important;
+        height: 100vw;
     }
 
     #imgmobile2{
@@ -427,6 +428,5 @@ body{
         margin-bottom: 10%;
     }
 
-    
-   
+
   }
